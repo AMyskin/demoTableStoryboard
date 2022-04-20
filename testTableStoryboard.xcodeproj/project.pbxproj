@@ -13,6 +13,8 @@
 		1BEC72FC280851F600C78135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC72FA280851F600C78135 /* Main.storyboard */; };
 		1BEC72FE280851F700C78135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC72FD280851F700C78135 /* Assets.xcassets */; };
 		1BEC7301280851F700C78135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC72FF280851F700C78135 /* LaunchScreen.storyboard */; };
+		1BEC730A2808551300C78135 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC73082808551200C78135 /* TableViewCell.swift */; };
+		1BEC730B2808551300C78135 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC73092808551300C78135 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1BEC72FD280851F700C78135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEC7300280851F700C78135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEC7302280851F700C78135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEC73082808551200C78135 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1BEC73092808551300C78135 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1BEC72F4280851F600C78135 /* AppDelegate.swift */,
 				1BEC72F6280851F600C78135 /* SceneDelegate.swift */,
 				1BEC72F8280851F600C78135 /* ViewController.swift */,
+				1BEC73082808551200C78135 /* TableViewCell.swift */,
+				1BEC73092808551300C78135 /* TableViewCell.xib */,
 				1BEC72FA280851F600C78135 /* Main.storyboard */,
 				1BEC72FD280851F700C78135 /* Assets.xcassets */,
 				1BEC72FF280851F700C78135 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEC7301280851F700C78135 /* LaunchScreen.storyboard in Resources */,
+				1BEC730B2808551300C78135 /* TableViewCell.xib in Resources */,
 				1BEC72FE280851F700C78135 /* Assets.xcassets in Resources */,
 				1BEC72FC280851F600C78135 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEC72F9280851F600C78135 /* ViewController.swift in Sources */,
+				1BEC730A2808551300C78135 /* TableViewCell.swift in Sources */,
 				1BEC72F5280851F600C78135 /* AppDelegate.swift in Sources */,
 				1BEC72F7280851F600C78135 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testTableStoryboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testTableStoryboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
